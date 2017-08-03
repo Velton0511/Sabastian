@@ -46,7 +46,7 @@
     </input>
 
     <input pattern="* {сколько тебе (лет|год*)} *">
-        <output value="Задавайте вопросы по существу"/>
+        <output value="Я же программа, ты что забыл"/>
     </input>
 
     <input pattern="удалить *">
