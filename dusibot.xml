@@ -14,8 +14,8 @@
     </input>
     
     <input>
-    <input  pattern = " * как тебя зовут * " >
-        <output value=" Себастьян " />
+    <input pattern= " * как тебя зовут * " >
+        <output pattern="Меня зовут Себастьян"/>
         </output>
     </input >
 
