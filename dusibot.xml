@@ -13,10 +13,8 @@
         <output value="Я Ваш личный голосовой ассистент"/>
     </input>
     
-    <input>
     <input pattern= " * как тебя зовут * " >
-        <output pattern="Меня зовут Себастьян"/>
-        </output>
+        <output value="Меня зовут Себастьян"/>
     </input>
 
     <input>
