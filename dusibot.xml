@@ -112,7 +112,7 @@
          <!-- Note that you need to create cities entity in your bot settings -->
      <pattern name="City" value="https://github.com/Velton0511/Sabastian/blob/master/cities.csv"/>
  
-     <input pattern="* (weather|forecast) {[* $Date] [* $City]}">
+     <input pattern="* погода {[* $Date] [* $City]}">
          <context id="weather">
              <!-- This context will automatically extend a root one -->
  
