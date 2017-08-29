@@ -104,10 +104,11 @@
         <pattern value="(есть|поесть|*кушать):кафе"/>
         <pattern value="(пиво|пива|пивка|водк*|водочк*):бар"/>
     </pattern>
-
+    <input>
     <input pattern="* {хочу (* $PlaceType)} *">
         <var name="command" value="где находится $PlaceType"/>
     </input>
+    <input>
          <!-- Note that you need to create cities entity in your bot settings -->
      <pattern name="City" value="entity://cities"/>
  
@@ -117,7 +118,7 @@
  
              <output value="There is a nice weather today!" if="empty($City)"/>
              <output value="Looks like it is nice weather in $City!"/>
- 
+ </input>
              <input>
                  <!-- Once weather context is activated, user can simply ask about different date or city or both of them -->
                  <pattern value="{(* $Date) [* $City]}"/>
