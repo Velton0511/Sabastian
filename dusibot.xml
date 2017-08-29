@@ -128,7 +128,7 @@
              </input>
 </context>
 <context>
-  <input pattern="* погода * [$Date] *">
+  <input pattern="*погода* [$Date] *">
 
     <!-- If we don’t know where is our user from, we need to ask about that -->
     <context if="empty($UserCity)">
